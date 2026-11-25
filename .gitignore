@@ -1,4 +1,15 @@
-.DS_Store
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
 venv/
 __pycache__/
 *.py[cod]
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
